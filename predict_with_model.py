@@ -18,9 +18,20 @@ def load_model():
     return model, le
 
 def predict(file):
+    """
+    :param file: input captcha path
+    :return: predicted letters
+    """
     array, letters = ch.convert(file, threshold='manual')
+    if not array:
+        print('convert failed!')
+        return []
     model, le = load_model()
     letters_pred = model.predict(array)
     letters_pred_transform = le.inverse_transform(letters_pred)
     print(letters_pred_transform)
+    return letters_pred_transform
+
+if __name__ == '__main__':
+    letters = predict('A12X.jpg')
 

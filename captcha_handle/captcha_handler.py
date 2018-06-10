@@ -82,14 +82,14 @@ class CaptchaHandler():
             array = list(np.array(resize_img).flatten())
             output_array.append(array)
             output_letters.append(letter_text)
-            resize_img.save('../data/converted_images/{}_{}.jpg'.format(letter_text, self.count))
+            resize_img.save('./data/converted_images/{}_{}.jpg'.format(letter_text, self.count))
             self.count += 1
 
         return output_array, output_letters
 
 
     def multi_convert(self):
-        root_path = '../data/generated_captcha_images'
+        root_path = './data/generated_captcha_images'
         files = os.listdir(root_path)
         for file in files:
             file = os.path.join(root_path, file)
