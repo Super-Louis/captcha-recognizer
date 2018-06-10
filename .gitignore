@@ -1,1 +1,3 @@
 data
+model/random_forest_model
+model/label_encoder
