@@ -4,6 +4,8 @@ import numpy as np
 import imutils
 import re
 import os
+import time
+import random
 
 class CaptchaHandler():
 
@@ -23,15 +25,15 @@ class CaptchaHandler():
         # Add some extra padding around the image
         img = cv2.copyMakeBorder(img, 8, 8, 8, 8, cv2.BORDER_REPLICATE)
         # threshold the image (convert it to pure black and white)
-        if threshold == 'auto': # adaptive threshold
-            thresh = cv2.threshold(img, 0, 255, cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)[1]  # cv2.THRESH_OTSU自动确定阈值
-        else:
-            thresh = cv2.threshold(img, threshold, 255, cv2.THRESH_BINARY_INV)[1]
+        # if threshold == 'auto': # adaptive threshold
+        #     thresh = cv2.threshold(img, 0, 255, cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)[1]  # cv2.THRESH_OTSU自动确定阈值
+        # else:
+        thresh = cv2.threshold(img, threshold, 255, cv2.THRESH_BINARY_INV)[1]
         return thresh
 
     def crop_img_2_letters(self, img):
         # find the contours (continuous blobs of pixels) the image
-        contours = cv2.findContours(img.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
+        contours = cv2.findContours(img.copy(), cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_NONE)
 
         # Hack for compatibility with different OpenCV versions
         contours = contours[0] if imutils.is_cv2() else contours[1]
@@ -47,15 +49,15 @@ class CaptchaHandler():
 
             # Compare the width and height of the contour to detect letters that
             # are conjoined into one chunk
-            if w / h > 1.25:
-                # This contour is too wide to be a single letter!
-                # Split it in half into two letter regions!
-                half_width = int(w / 2)
-                letter_image_regions.append((x, y, half_width, h))
-                letter_image_regions.append((x + half_width, y, half_width, h))
-            else:
+            # if w / h > 1.25:
+            #     # This contour is too wide to be a single letter!
+            #     # Split it in half into two letter regions!
+            #     half_width = int(w / 2)
+            #     letter_image_regions.append((x, y, half_width, h))
+            #     letter_image_regions.append((x + half_width, y, half_width, h))
+            # else:
                # This is a normal letter by itself
-                letter_image_regions.append((x, y, w, h))
+            letter_image_regions.append((x, y, w, h))
 
         # If we found more or less than 4 letters in the captcha, our letter extraction
         # didn't work correcly. Skip the image instead of saving bad training data!
@@ -82,7 +84,8 @@ class CaptchaHandler():
             array = list(np.array(resize_img).flatten())
             output_array.append(array)
             output_letters.append(letter_text)
-            resize_img.save('./data/converted_images/{}_{}.jpg'.format(letter_text, self.count))
+            resize_img.save('{}_{}.jpg'.format(letter_text, self.count))
+            time.sleep(random.uniform(0.1, 0.3))
             self.count += 1
 
         return output_array, output_letters
@@ -119,5 +122,5 @@ class CaptchaHandler():
 if __name__ == '__main__':
     ch = CaptchaHandler()
     # ch.multi_convert()
-    file = 'sukg.jpg'
-    ch.convert(file)
+    file = 'lagou.jpg'
+    ch.convert(file, threshold='manual')

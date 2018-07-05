@@ -4,5 +4,9 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="graph" />
+    <orderEntry type="module" module-name="tensorflow_study" />
+    <orderEntry type="module" module-name="daily_import" />
+    <orderEntry type="module" module-name="data-system" />
   </component>
 </module>

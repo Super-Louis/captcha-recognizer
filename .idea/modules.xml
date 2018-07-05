@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/captcha-recognizer.iml" filepath="$PROJECT_DIR$/.idea/captcha-recognizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../daily_import/.idea/daily_import.iml" filepath="$PROJECT_DIR$/../daily_import/.idea/daily_import.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../data-system/.idea/data-system.iml" filepath="$PROJECT_DIR$/../data-system/.idea/data-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../graph/.idea/graph.iml" filepath="$PROJECT_DIR$/../graph/.idea/graph.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tensorflow_study/.idea/tensorflow_study.iml" filepath="$PROJECT_DIR$/../tensorflow_study/.idea/tensorflow_study.iml" />
     </modules>
   </component>
 </project>
