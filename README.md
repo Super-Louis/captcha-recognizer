@@ -1,6 +1,6 @@
 # captcha-recognizer
 ## 简介
-#### captcha-recognizer可用于识别由字母及数字组合的简易验证码;
+#### captcha-recognizer可用于识别由字母及数字组合的图片验证码;
   
 #### 目前采用opencv+传统机器学习算法，后续会增加神经网络模型;
   
