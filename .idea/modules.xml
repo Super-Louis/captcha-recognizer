@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../ListParser-test/.idea/ListParser.iml" filepath="$PROJECT_DIR$/../ListParser-test/.idea/ListParser.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/captcha-recognizer.iml" filepath="$PROJECT_DIR$/.idea/captcha-recognizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../chewbacca/.idea/chewbacca.iml" filepath="$PROJECT_DIR$/../chewbacca/.idea/chewbacca.iml" />
       <module fileurl="file://$PROJECT_DIR$/../daily_import/.idea/daily_import.iml" filepath="$PROJECT_DIR$/../daily_import/.idea/daily_import.iml" />
       <module fileurl="file://$PROJECT_DIR$/../data-system/.idea/data-system.iml" filepath="$PROJECT_DIR$/../data-system/.idea/data-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/../graph/.idea/graph.iml" filepath="$PROJECT_DIR$/../graph/.idea/graph.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../kaggle/.idea/kaggle.iml" filepath="$PROJECT_DIR$/../kaggle/.idea/kaggle.iml" />
       <module fileurl="file://$PROJECT_DIR$/../tensorflow_study/.idea/tensorflow_study.iml" filepath="$PROJECT_DIR$/../tensorflow_study/.idea/tensorflow_study.iml" />
     </modules>
   </component>

@@ -8,5 +8,9 @@
     <orderEntry type="module" module-name="tensorflow_study" />
     <orderEntry type="module" module-name="daily_import" />
     <orderEntry type="module" module-name="data-system" />
+    <orderEntry type="module" module-name="kaggle" />
+    <orderEntry type="module" module-name="chewbacca" />
+    <orderEntry type="module" module-name="ListParser" />
+    <orderEntry type="module" module-name="ListParser" />
   </component>
 </module>

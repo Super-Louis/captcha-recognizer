@@ -30,7 +30,7 @@ line_number = (1, 5)
 source = list(string.ascii_letters)
 for index in range(0, 10):
     source.append(str(index))
-letter_exclude = ['I', '1', '0', 'O', 'o', 'w', 'c', 'k', 's', 'v', 'x', 'z']
+letter_exclude = ['I','i','j', 'l','1', '0', 'O', 'o', 'w', 'c', 'k', 's', 'v', 'x', 'z']
 final_source = []
 for i in source:
     if i not in letter_exclude:
@@ -49,13 +49,13 @@ def gene_line(draw, width, height):
 
 
 # 生成验证码
-def gene_code():
+def gene_code(num, once=False):
     width, height = size  # 宽和高
     image = Image.new('RGBA', (width, height), bgcolor)  # 创建图片
     font = ImageFont.truetype(font_path, 25)  # 验证码的字体
     draw = ImageDraw.Draw(image)  # 创建画笔
     text = gene_text()  # 生成字符串
-    # text='XxZz'
+    text='9hxm'
     font_width, font_height = font.getsize(text)
     print(font_width, font_height)
     draw.text(((width - font_width) / number, (height - font_height) / number), text,
@@ -64,11 +64,11 @@ def gene_code():
         gene_line(draw, width, height)
     # image = image.transform((width+30,height+10), Image.AFFINE, (1,-0.3,0,-0.1,1,0),Image.BILINEAR)  #创建扭曲
     i = random.choice([-1, 1])
-    image = image.transform((width + 20, height + 10), Image.AFFINE,
-                            (1, i * 0.3, 0, i * 0.1, 1, 0), Image.BILINEAR)  # 创建扭曲
+    # image = image.transform((width + 20, height + 10), Image.AFFINE,
+    #                         (1, i * 0.3, 0, i * 0.1, 1, 0), Image.BILINEAR)  # 创建扭曲
     # image = image.filter(ImageFilter.EDGE_ENHANCE_MORE)  # 滤镜，边界加强
     # image = image.filter(ImageFilter.BLUR) # 模糊处理
-
+    image = image.rotate(random.uniform(-10, 10))
     # 将倾斜后的图片paste至空白图框
     image_out = Image.new('RGB', (120, 40), (255, 255, 255))
     image_out.paste(image, (15, 5))
@@ -83,10 +83,14 @@ def gene_code():
     # image_out = image_out.filter(ImageFilter.EDGE_ENHANCE_MORE)
     # 图片模糊处理
     image_out = image_out.filter(ImageFilter.GaussianBlur(1))
-    image_out.save('{}.png'.format(text))  # 保存验证码图片
+    save_path = '{}_{}.png'.format(text, num) if once else '../data/generated_images/{}_{}.png'.format(text, num)
+    image_out.save(save_path)  # 保存验证码图片
+    print('count: {}, image: {}'.format(num, text))
 
 
 if __name__ == "__main__":
-    gene_code()
+    # for i in range(100000):
+    #     gene_code(i)
     # im = Image.open('YgN4.png')
     # im.show()
+    gene_code(1, once=True)

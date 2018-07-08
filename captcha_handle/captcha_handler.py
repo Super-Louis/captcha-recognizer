@@ -17,7 +17,7 @@ class CaptchaHandler():
         self.file = file
         print(file)
         image = cv2.imread(file) # not support gif type
-        print(image)
+        # print(image)
         gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) # array
         return gray
 
@@ -31,7 +31,7 @@ class CaptchaHandler():
         thresh = cv2.threshold(img, threshold, 255, cv2.THRESH_BINARY_INV)[1]
         return thresh
 
-    def crop_img_2_letters(self, img):
+    def crop_img_2_letters(self, img, test=False):
         # find the contours (continuous blobs of pixels) the image
         contours = cv2.findContours(img.copy(), cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_NONE)
 
@@ -62,15 +62,15 @@ class CaptchaHandler():
         # If we found more or less than 4 letters in the captcha, our letter extraction
         # didn't work correcly. Skip the image instead of saving bad training data!
         if len(letter_image_regions) != 4:
-            print("not enough letters")
+            # print("not enough letters")
             return [],[]
 
         # Sort the detected letter images based on the x coordinate to make sure
         # we are processing them from left-to-right so we match the right image
         # with the right letter
-        print(len(letter_image_regions))
+        # print(len(letter_image_regions))
         letter_image_regions = sorted(letter_image_regions, key=lambda x: x[0])
-        captcha_correct_text = re.findall(r'(\w+)\.\w+', self.file)[0]
+        captcha_correct_text = re.findall(r'(\w{4})_\d+', self.file)[0]
         # Save out each letter as a single image
         for letter_bounding_box, letter_text in zip(letter_image_regions, captcha_correct_text):
             # Grab the coordinates of the letter in the image
@@ -84,23 +84,27 @@ class CaptchaHandler():
             array = list(np.array(resize_img).flatten())
             output_array.append(array)
             output_letters.append(letter_text)
-            resize_img.save('{}_{}.jpg'.format(letter_text, self.count))
-            time.sleep(random.uniform(0.1, 0.3))
-            self.count += 1
+            if self.check_complete(resize_img):
+                save_path = os.path.dirname(os.path.dirname(__file__))
+                save_path = os.path.join(save_path, 'data')
+                save_path = os.path.join(save_path, 'extracted_letters/{}_{}.jpg'.format(letter_text, self.count))\
+                    if not test else './tests/{}_{}.jpg'.format(letter_text, self.count)
+                resize_img.save(save_path)
+                time.sleep(random.uniform(0.1, 0.3))
+                self.count += 1
 
         return output_array, output_letters
 
+    def check_complete(self, resize_img):
+        array = np.array(resize_img)
+        count = 0
+        for i in range(24):
+            for j in range(18):
+                if array[i, j] >= 100:
+                    count += 1
+        return False if count <= 60 else True
 
-    def multi_convert(self):
-        root_path = './data/generated_captcha_images'
-        files = os.listdir(root_path)
-        for file in files:
-            file = os.path.join(root_path, file)
-            gray = self.convert_grey(file)
-            binary = self.convert_binary(gray)
-            _, _ = self.crop_img_2_letters(binary)
-
-    def convert(self, file, threshold='auto'):
+    def convert(self, file, threshold='auto', test=False):
         gray = self.convert_grey(file)
         if threshold == 'auto':
             binary = self.convert_binary(gray)
@@ -112,15 +116,30 @@ class CaptchaHandler():
             while len(array) != 4:
                 if threshold > 250:
                     print("max retry reached")
-                    break
+                    return None, None
                 threshold += 10
                 binary = self.convert_binary(gray.copy(), threshold)
-                array, letters = self.crop_img_2_letters(binary.copy())
+                array, letters = self.crop_img_2_letters(binary.copy(), test)
         return array, letters
+
+
+    def multi_convert(self):
+        root_path = '../data/generated_images'
+        files = os.listdir(root_path)
+        count = 0
+        for file in files:
+            count += 1
+            file = os.path.join(root_path, file)
+            # gray = self.convert_grey(file)
+            # binary = self.convert_binary(gray)
+            _, _ = self.convert(file, 'manual')
+            print('image handled count: {}'.format(count))
+
 
 
 if __name__ == '__main__':
     ch = CaptchaHandler()
     # ch.multi_convert()
-    file = 'lagou.jpg'
-    ch.convert(file, threshold='manual')
+    # file = 'lagou.jpg'
+    # ch.convert(file, threshold='manual')
+    ch.multi_convert()
