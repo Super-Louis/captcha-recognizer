@@ -6,7 +6,7 @@
       <change beforePath="$PROJECT_DIR$/../ListParser-test/server/settings/config.py" afterPath="$PROJECT_DIR$/../ListParser-test/server/settings/config.py" />
       <change beforePath="$PROJECT_DIR$/../ListParser-test/server/settings/data/company_list.json" afterPath="$PROJECT_DIR$/../ListParser-test/server/settings/data/company_list.json" />
       <change beforePath="$PROJECT_DIR$/../ListParser-test/server/tests/test.py" afterPath="$PROJECT_DIR$/../ListParser-test/server/tests/test.py" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/predict_with_model.py" afterPath="$PROJECT_DIR$/predict_with_model.py" />
       <change beforePath="$PROJECT_DIR$/../daily_import/.idea/daily_import.iml" afterPath="$PROJECT_DIR$/../daily_import/.idea/daily_import.iml" />
       <change beforePath="$PROJECT_DIR$/../tensorflow_study/chapter5/mnist_eval.py" afterPath="$PROJECT_DIR$/../tensorflow_study/chapter5/mnist_eval.py" />
       <change beforePath="$PROJECT_DIR$/../tensorflow_study/chapter5/mnist_inference.py" afterPath="$PROJECT_DIR$/../tensorflow_study/chapter5/mnist_inference.py" />
@@ -51,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="captcha_generator.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="captcha_generator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/captcha_handle/captcha_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="701">
+            <state relative-caret-position="1181">
               <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
               <folding>
                 <element signature="e#172#185#0" expanded="true" />
@@ -63,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="predict_with_model.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="predict_with_model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/predict_with_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="107" column="61" lean-forward="false" selection-start-line="107" selection-start-column="61" selection-end-line="107" selection-end-column="61" />
+            <state relative-caret-position="-611">
+              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
                 <element signature="e#174#187#0" expanded="true" />
               </folding>
@@ -158,9 +158,9 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_11.py" />
         <option value="$PROJECT_DIR$/../kaggle/mnist_recognizer/model/cnn_enlarge_data.ipynb" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_12.py" />
-        <option value="$PROJECT_DIR$/predict_with_model.py" />
         <option value="$PROJECT_DIR$/captcha_handle/captcha_handler.py" />
         <option value="$PROJECT_DIR$/captcha_handle/captcha_generator.py" />
+        <option value="$PROJECT_DIR$/predict_with_model.py" />
       </list>
     </option>
   </component>
@@ -366,6 +366,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="33" width="1922" height="1083" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22292994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -374,7 +375,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62668043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5977249" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5977249" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57807654" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -773,16 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/predict_with_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="107" column="61" lean-forward="false" selection-start-line="107" selection-start-column="61" selection-end-line="107" selection-end-column="61" />
-          <folding>
-            <element signature="e#174#187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/captcha_handle/captcha_handler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
@@ -795,10 +786,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/captcha_handle/captcha_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
+        <state relative-caret-position="1181">
           <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
           <folding>
             <element signature="e#172#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predict_with_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-611">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="e#174#187#0" expanded="true" />
           </folding>
         </state>
       </provider>
