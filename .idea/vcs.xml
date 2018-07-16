@@ -3,9 +3,13 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../ListParser-test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Machine_Learning" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../as" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../chewbacca" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../daily_import" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../data-system" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../query_recommend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../scikit-learn" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../tensorflow_study" vcs="Git" />
   </component>
 </project>

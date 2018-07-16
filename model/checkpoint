@@ -1,2 +1,2 @@
-model_checkpoint_path: "cnn_model_0.99.ckpt"
-all_model_checkpoint_paths: "cnn_model_0.99.ckpt"
+model_checkpoint_path: "cnn_full_model_0.92.ckpt"
+all_model_checkpoint_paths: "cnn_full_model_0.92.ckpt"

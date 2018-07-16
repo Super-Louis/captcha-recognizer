@@ -5,12 +5,16 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="graph" />
-    <orderEntry type="module" module-name="tensorflow_study" />
     <orderEntry type="module" module-name="daily_import" />
     <orderEntry type="module" module-name="data-system" />
     <orderEntry type="module" module-name="kaggle" />
     <orderEntry type="module" module-name="chewbacca" />
     <orderEntry type="module" module-name="ListParser" />
-    <orderEntry type="module" module-name="ListParser" />
+    <orderEntry type="module" module-name="query_recommend" />
+    <orderEntry type="module" module-name="scikit-learn" />
+    <orderEntry type="module" module-name="ML" />
+    <orderEntry type="module" module-name="hmm" />
+    <orderEntry type="module" module-name="tensorflow_study" />
+    <orderEntry type="module" module-name="as" />
   </component>
 </module>

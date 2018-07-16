@@ -5,56 +5,44 @@
 # Time    : 18-6-10 13:26
 # Github  : https://github.com/Super-Louis
 
-import pickle
-import numpy as np
-from captcha_handle.captcha_handler import CaptchaHandler
+from captcha_handle.gen_sample import *
 import tensorflow as tf
+from PIL import Image
+import re
+from model import cnn_utils
 
 
-ch = CaptchaHandler()
+def image_handler(file):
+    img = Image.open(file)
+    l_img = img.convert('L')
+    r_img = l_img.resize((120, 48),Image.ANTIALIAS)
+    img_array = np.array(r_img)
+    letters = re.findall('(\w{4})_?\d?\.\w+', file)[0]
+    return img_array, ''.join(letters)
 
-def load_ml_model():
-    # load the model from local file
-    model = pickle.load(open('model/random_forest_model', 'rb'))
-    le = pickle.load(open('model/label_encoder', 'rb'))
-    return model, le
-
-def predict(file, method='ml', test=True):
+def predict(from_local=False, file_path=''):
     """
     :param file: input captcha path
     :return: predicted letters
     """
-    array, letters = ch.convert(file, threshold='manual', test=test)
-    if not array:
-        print('convert failed!')
-        return []
-    if method == 'ml':
-        model, le = load_ml_model()
-        letters_pred = model.predict(array)
-        letters_pred_transform = le.inverse_transform(letters_pred)
-        print(letters_pred_transform)
-        return letters_pred_transform
+    # y_conv, X, keep_prob = tf_variables()
+    if from_local and file_path:
+        X, letters = image_handler(file_path)
     else:
-        # y_conv, X, keep_prob = tf_variables()
-        saver = tf.train.import_meta_graph('./model/cnn_model_0.99.ckpt.meta')
-        graph = tf.get_default_graph()
-        with tf.Session(graph=graph) as sess:
-            # ckpt = tf.train.get_checkpoint_state('./model/')
-            # print(ckpt.model_checkpoint_path)
-            # saver.restore(sess, ckpt.model_checkpoint_path)
-            saver.restore(sess, './model/cnn_model_0.99.ckpt')
-            le = pickle.load(open('./data/le_cnn', 'rb'))
-            mm = pickle.load(open('./data/mm_cnn', 'rb'))
-            x_mm = mm.transform(array)
-            x_re = np.reshape(x_mm, [-1, 24, 18, 1])
-            y_predict = sess.run(graph.get_tensor_by_name('Softmax_1:0'),
-                                 feed_dict={graph.get_tensor_by_name('x-input_1:0'): x_re,
-                                            graph.get_tensor_by_name('Placeholder_1:0'): 1})
-            y_label = np.argmax(y_predict, 1)
-            predict_letters = le.inverse_transform(y_label)
-            print(predict_letters)
-            return predict_letters
+        X, letters = create_data(test=True)
+    x = X.reshape([48, 120, 1])
+    image = cnn_utils.preprocess_for_train(x) # 不要忘了数据预处理！！！
+    saver = tf.train.import_meta_graph('./model/cnn_full_model_0.92.ckpt.meta')
+    graph = tf.get_default_graph()
+    with tf.Session(graph=graph) as sess:
+        saver.restore(sess, './model/cnn_full_model_0.92.ckpt')
+        im = sess.run(image) # 先要得到真实的输入，不然只是tensor
+        y_predict = sess.run(graph.get_tensor_by_name('y_pred_11:0'),
+                             feed_dict={graph.get_tensor_by_name('x-input_11:0'): np.expand_dims(im, 0), # 三维转四维
+                                        graph.get_tensor_by_name('Placeholder_11:0'): 1})
+        y_label = decode_label(y_predict[0])
+        print("true letters: {}; predict letters: {}".format(letters, y_label))
 
 if __name__ == '__main__':
-    letters = predict('AaZ2_1.png', method='cnn')
+    letters = predict(from_local=False, file_path='t6fb_1.jpg')
 

@@ -2,15 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="810fd1ab-61ba-4f9e-bfb1-27815a1e9393" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/model/cnn_utils.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../tensorflow_study/chapter9/nlp_theory.py" />
       <change beforePath="$PROJECT_DIR$/../ListParser-test/server/core/parse_list.py" afterPath="$PROJECT_DIR$/../ListParser-test/server/core/parse_list.py" />
       <change beforePath="$PROJECT_DIR$/../ListParser-test/server/settings/config.py" afterPath="$PROJECT_DIR$/../ListParser-test/server/settings/config.py" />
       <change beforePath="$PROJECT_DIR$/../ListParser-test/server/settings/data/company_list.json" afterPath="$PROJECT_DIR$/../ListParser-test/server/settings/data/company_list.json" />
       <change beforePath="$PROJECT_DIR$/../ListParser-test/server/tests/test.py" afterPath="$PROJECT_DIR$/../ListParser-test/server/tests/test.py" />
+      <change beforePath="$PROJECT_DIR$/../Machine_Learning/.idea/ML.iml" afterPath="$PROJECT_DIR$/../Machine_Learning/.idea/ML.iml" />
+      <change beforePath="$PROJECT_DIR$/../Machine_Learning/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Machine_Learning/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/../Machine_Learning/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../Machine_Learning/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/../Machine_Learning/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Machine_Learning/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../Machine_Learning/AdaBoost/adaboost.py" afterPath="$PROJECT_DIR$/../Machine_Learning/AdaBoost/adaboost.py" />
+      <change beforePath="$PROJECT_DIR$/../Machine_Learning/LinearRegression/linear_regression.py" afterPath="$PROJECT_DIR$/../Machine_Learning/LinearRegression/linear_regression.py" />
+      <change beforePath="$PROJECT_DIR$/../Machine_Learning/PCA/pca.py" afterPath="$PROJECT_DIR$/../Machine_Learning/PCA/pca.py" />
+      <change beforePath="$PROJECT_DIR$/../Machine_Learning/Perceptron/adalinesgd.py" afterPath="$PROJECT_DIR$/../Machine_Learning/Perceptron/adalinesgd.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/captcha-recognizer.iml" afterPath="$PROJECT_DIR$/.idea/captcha-recognizer.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/captcha_handle/captcha_generator.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/captcha_handle/captcha_handler.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/captcha_handle/lagou_captcha.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model/checkpoint" afterPath="$PROJECT_DIR$/model/checkpoint" />
+      <change beforePath="$PROJECT_DIR$/model/label_encoder" afterPath="$PROJECT_DIR$/model/label_encoder" />
+      <change beforePath="$PROJECT_DIR$/model/train-ml-model.ipynb" afterPath="$PROJECT_DIR$/model/train-ml-model.ipynb" />
+      <change beforePath="$PROJECT_DIR$/model/train_cnn_model.ipynb" afterPath="$PROJECT_DIR$/model/train_cnn_model.ipynb" />
       <change beforePath="$PROJECT_DIR$/predict_with_model.py" afterPath="$PROJECT_DIR$/predict_with_model.py" />
+      <change beforePath="$PROJECT_DIR$/tests/9_4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/9_8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/G_13.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/Q_12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/d_15.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/h_5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/h_9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/l_14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/m_11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/m_7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/x_10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/x_6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../chewbacca/server/alert.py" afterPath="$PROJECT_DIR$/../chewbacca/server/alert.py" />
+      <change beforePath="$PROJECT_DIR$/../chewbacca/server/core/utils.py" afterPath="$PROJECT_DIR$/../chewbacca/server/core/utils.py" />
       <change beforePath="$PROJECT_DIR$/../daily_import/.idea/daily_import.iml" afterPath="$PROJECT_DIR$/../daily_import/.idea/daily_import.iml" />
-      <change beforePath="$PROJECT_DIR$/../tensorflow_study/chapter5/mnist_eval.py" afterPath="$PROJECT_DIR$/../tensorflow_study/chapter5/mnist_eval.py" />
-      <change beforePath="$PROJECT_DIR$/../tensorflow_study/chapter5/mnist_inference.py" afterPath="$PROJECT_DIR$/../tensorflow_study/chapter5/mnist_inference.py" />
-      <change beforePath="$PROJECT_DIR$/../tensorflow_study/chapter5/mnist_train.py" afterPath="$PROJECT_DIR$/../tensorflow_study/chapter5/mnist_train.py" />
+      <change beforePath="$PROJECT_DIR$/../graph/edge/resume_company.py" afterPath="$PROJECT_DIR$/../graph/edge/resume_company.py" />
+      <change beforePath="$PROJECT_DIR$/../query_recommend/script/import_es.sh" afterPath="$PROJECT_DIR$/../query_recommend/script/import_es.sh" />
+      <change beforePath="$PROJECT_DIR$/../scikit-learn/.idea/scikit-learn.iml" afterPath="$PROJECT_DIR$/../scikit-learn/.idea/scikit-learn.iml" />
+      <change beforePath="$PROJECT_DIR$/../scikit-learn/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../scikit-learn/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../scikit-learn/chapter3-classification/Logistic_Regression.ipynb" afterPath="$PROJECT_DIR$/../scikit-learn/chapter3-classification/Logistic_Regression.ipynb" />
+      <change beforePath="$PROJECT_DIR$/../scikit-learn/chapter4-data_processing/feature-engineering.ipynb" afterPath="$PROJECT_DIR$/../scikit-learn/chapter4-data_processing/feature-engineering.ipynb" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow_study/chapter8/cnn_sample.py" afterPath="$PROJECT_DIR$/../tensorflow_study/chapter8/cnn_sample.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,107 +60,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="spider_unique.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../graph/node/spider_unique.py">
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../query_recommend/server/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="81" column="34" lean-forward="true" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseHandler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../query_recommend/server/core/BaseHandler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="folder.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/folder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseHandler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../chewbacca/server/core/BaseHandler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="es_utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../query_recommend/server/core/es_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="607" column="60" lean-forward="true" selection-start-line="607" selection-start-column="60" selection-end-line="607" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weixin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../chewbacca/server/core/weixin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="query_analyze.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../as/server/modules/resume_search/model/query_analyze.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../as/server/modules/resume_search/search.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="71" column="19" lean-forward="false" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scratch_11.py" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_11.py">
+      <file leaf-file-name="talent_search.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../as/server/modules/resume_search/model/talent_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/multiprocessing/__init__.py">
+      <file leaf-file-name="aizhaopin_search.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../as/server/modules/resume_search/model/aizhaopin_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state relative-caret-position="128">
+              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="captcha_generator.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/captcha_handle/captcha_generator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1181">
-              <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-              <folding>
-                <element signature="e#172#185#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="predict_with_model.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/predict_with_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-611">
-              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-              <folding>
-                <element signature="e#174#187#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lagou_captcha.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/captcha_handle/lagou_captcha.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="captcha_handler.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/captcha_handle/captcha_handler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="91" column="38" lean-forward="false" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scratch_12.py" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_12.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mnist_advanced.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../tensorflow_study/get_started/mnist_advanced.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="66" column="27" lean-forward="false" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cnn_enlarge_data.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../kaggle/mnist_recognizer/model/cnn_enlarge_data.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="20" />
             </state>
           </provider>
         </entry>
@@ -135,32 +171,79 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>my_ana</find>
+      <find>col_idx</find>
+      <find>get</find>
+      <find>professional_skill</find>
+      <find>multi_match</find>
+      <find>dis_max</find>
+      <find>negative</find>
+      <find>filter</find>
+      <find>query_list</find>
+      <find>9iyV</find>
+      <find>active</find>
+      <find>telephone_sign</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../as" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../write/ww.py" />
-        <option value="$PROJECT_DIR$/../write/write/www.py" />
-        <option value="$PROJECT_DIR$/../graph/node/resume_simhash.py" />
-        <option value="$PROJECT_DIR$/../graph/node/spider_unique.py" />
-        <option value="$PROJECT_DIR$/../daily_import/server/import_resume.py" />
-        <option value="$PROJECT_DIR$/captcha_handle/captcha_gen.py" />
-        <option value="$PROJECT_DIR$/captcha_handle/lagou_captcha.py" />
-        <option value="$PROJECT_DIR$/../Algorithm/graph/bfs-search.py" />
-        <option value="$PROJECT_DIR$/../Algorithm/graph/dijkstra.py" />
-        <option value="$PROJECT_DIR$/../kaggle/mnist_recognizer/model/mnist-recognizer.ipynb" />
-        <option value="$PROJECT_DIR$/../ListParser-test/server/core/parse_list.py" />
-        <option value="$PROJECT_DIR$/../ListParser/server/core/parse_list.py" />
-        <option value="$PROJECT_DIR$/../ListParser-test/server/tests/test.py" />
-        <option value="$PROJECT_DIR$/../ListParser-test/server/core/parse_list_test.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_11.py" />
         <option value="$PROJECT_DIR$/../kaggle/mnist_recognizer/model/cnn_enlarge_data.ipynb" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_12.py" />
         <option value="$PROJECT_DIR$/captcha_handle/captcha_handler.py" />
         <option value="$PROJECT_DIR$/captcha_handle/captcha_generator.py" />
+        <option value="$PROJECT_DIR$/../tensorflow_study/chapter7/image_processing.ipynb" />
+        <option value="$PROJECT_DIR$/../hmm/hmm_vitebi.py" />
+        <option value="$PROJECT_DIR$/../tensorflow_study/chapter7/complete_sample.py" />
+        <option value="$PROJECT_DIR$/../tensorflow_study/chapter8/rnn_forward.py" />
+        <option value="$PROJECT_DIR$/../ListParser-test/server/tests/test.py" />
+        <option value="$PROJECT_DIR$/../ListParser/server/core/parse_list.py" />
+        <option value="$PROJECT_DIR$/../ListParser-test/server/core/parse_list.py" />
+        <option value="$PROJECT_DIR$/../ListParser-test/server/core/parse_list_test.py" />
+        <option value="$PROJECT_DIR$/../tensorflow_study/chapter8/lstm_forward.py" />
+        <option value="$PROJECT_DIR$/../tensorflow_study/chapter8/deep_rnn.py" />
+        <option value="$PROJECT_DIR$/../tensorflow_study/chapter8/cnn_dropout.py" />
+        <option value="$PROJECT_DIR$/../graph/node/spider_unique.py" />
+        <option value="$PROJECT_DIR$/../graph/node/resume_simhash.py" />
+        <option value="$PROJECT_DIR$/../graph/node/resume_simhash_bak.py" />
+        <option value="$PROJECT_DIR$/../graph/node/resume_score.py" />
+        <option value="$PROJECT_DIR$/aaa" />
+        <option value="$PROJECT_DIR$/model/train_cnn_model.ipynb" />
+        <option value="$PROJECT_DIR$/captcha_handle/captcha_gen.py" />
+        <option value="$PROJECT_DIR$/../graph/edge/resume_company.py" />
+        <option value="$PROJECT_DIR$/model/train_cnn.ipynb" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_13.py" />
+        <option value="$PROJECT_DIR$/captcha_handle/gen_datasets.ipynb" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_14.py" />
+        <option value="$PROJECT_DIR$/model/cnn_utils.py" />
+        <option value="$PROJECT_DIR$/../tensorflow_study/chapter8/cnn_sample.py" />
+        <option value="$PROJECT_DIR$/../tensorflow_study/chapter9/nlp_theory.py" />
+        <option value="$PROJECT_DIR$/captcha_handle/gen_sample.py" />
         <option value="$PROJECT_DIR$/predict_with_model.py" />
+        <option value="$PROJECT_DIR$/../query_recommend/script/import_es.sh" />
+        <option value="$PROJECT_DIR$/../as/server/scripts/realtime_import.py" />
+        <option value="$PROJECT_DIR$/../as/server/settings/config.py" />
+        <option value="$PROJECT_DIR$/../as/server.py" />
+        <option value="$PROJECT_DIR$/../as/README.md" />
+        <option value="$PROJECT_DIR$/../as/api.py" />
+        <option value="$PROJECT_DIR$/../chewbacca/server/core/utils.py" />
+        <option value="$PROJECT_DIR$/../as/server/api.py" />
+        <option value="$PROJECT_DIR$/../as/server/server.py" />
+        <option value="$PROJECT_DIR$/../as/server/modules/resume_search/__init__.py" />
+        <option value="$PROJECT_DIR$/../as/server/modules/resume_search/resume_search.py" />
+        <option value="$PROJECT_DIR$/../query_recommend/server/server.py" />
+        <option value="$PROJECT_DIR$/../as/server/modules/resume_search/talent_search.py" />
+        <option value="$PROJECT_DIR$/../as/server/modules/resume_search/aizhaopin_search.py" />
+        <option value="$PROJECT_DIR$/../as/.gitignore" />
+        <option value="$PROJECT_DIR$/../as/server/modules/resume_search/model/query_analyze.py" />
+        <option value="$PROJECT_DIR$/../as/server/modules/resume_search/search.py" />
+        <option value="$PROJECT_DIR$/../as/server/modules/resume_search/model/talent_search.py" />
+        <option value="$PROJECT_DIR$/../as/server/modules/resume_search/model/aizhaopin_search.py" />
       </list>
     </option>
   </component>
@@ -185,19 +268,83 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="captcha-recognizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="captcha-recognizer" type="462c0819:PsiDirectoryNode" />
+              <item name="as" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="captcha-recognizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="captcha-recognizer" type="462c0819:PsiDirectoryNode" />
-              <item name="captcha_handle" type="462c0819:PsiDirectoryNode" />
+              <item name="as" type="462c0819:PsiDirectoryNode" />
+              <item name="etc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="captcha-recognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="as" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="captcha-recognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="as" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="captcha-recognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="as" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="resume_search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="captcha-recognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="as" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="resume_search" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="captcha-recognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="as" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="captcha-recognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="as" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="captcha-recognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chewbacca" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="captcha-recognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chewbacca" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="captcha-recognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chewbacca" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="captcha-recognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chewbacca" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="talent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="captcha-recognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="query_recommend" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -206,8 +353,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ListParser-test" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../as" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -231,30 +378,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.captcha_generator">
-    <configuration name="captcha_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.predict_with_model">
+    <configuration name="cnn_sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/captcha_handle" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../tensorflow_study/chapter8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="captcha-recognizer" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/captcha_handle/captcha_generator.py" />
+      <module name="tensorflow_study" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../tensorflow_study/chapter8/cnn_sample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="captcha_handler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gen_sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYDEVD_LOAD_VALUES_ASYNC" value="True" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/captcha_handle" />
@@ -262,27 +410,9 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="captcha-recognizer" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/captcha_handle/captcha_handler.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/captcha_handle/gen_sample.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="lagou_captcha" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/captcha_handle" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="captcha-recognizer" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/captcha_handle/lagou_captcha.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
@@ -291,7 +421,6 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="PYDEVD_LOAD_VALUES_ASYNC" value="True" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -301,11 +430,30 @@
       <module name="captcha-recognizer" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/predict_with_model.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="scratch_13" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYDEVD_LOAD_VALUES_ASYNC" value="True" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="chewbacca" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_13.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="scratch_12" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="scratch_14" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -317,26 +465,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ListParser" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_12.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_14.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.predict_with_model" />
-      <item index="1" class="java.lang.String" itemvalue="Python.captcha_generator" />
-      <item index="2" class="java.lang.String" itemvalue="Python.lagou_captcha" />
-      <item index="3" class="java.lang.String" itemvalue="Python.captcha_handler" />
-      <item index="4" class="java.lang.String" itemvalue="Python.scratch_12" />
+      <item index="0" class="java.lang.String" itemvalue="Python.gen_sample" />
+      <item index="1" class="java.lang.String" itemvalue="Python.scratch_13" />
+      <item index="2" class="java.lang.String" itemvalue="Python.scratch_14" />
+      <item index="3" class="java.lang.String" itemvalue="Python.cnn_sample" />
+      <item index="4" class="java.lang.String" itemvalue="Python.predict_with_model" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.captcha_generator" />
-        <item index="1" class="java.lang.String" itemvalue="Python.predict_with_model" />
-        <item index="2" class="java.lang.String" itemvalue="Python.lagou_captcha" />
-        <item index="3" class="java.lang.String" itemvalue="Python.predict_with_model" />
-        <item index="4" class="java.lang.String" itemvalue="Python.predict_with_model" />
+        <item index="0" class="java.lang.String" itemvalue="Python.predict_with_model" />
+        <item index="1" class="java.lang.String" itemvalue="Python.gen_sample" />
+        <item index="2" class="java.lang.String" itemvalue="Python.cnn_sample" />
+        <item index="3" class="java.lang.String" itemvalue="Python.scratch_14" />
+        <item index="4" class="java.lang.String" itemvalue="Python.scratch_13" />
       </list>
     </recent_temporary>
   </component>
@@ -364,30 +512,41 @@
       <configuration name="Unittests for test.TestTalent" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="33" width="1922" height="1083" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22292994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27070063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988626" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62668043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5977249" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.557394" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57807654" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61323684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52740437" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61323684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -425,382 +584,432 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../graph/node/resume_simhash.py">
+    <entry file="file://$PROJECT_DIR$/../query_recommend/server/settings/data/filter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="74" column="50" lean-forward="false" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../graph/node/scores_dict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="992">
-          <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tensorflow_study/chapter3/chapter3_tensorflow_intro.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tensorflow_study/chapter6/cnn.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tensorflow_study/chapter5/mnist_eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="55" column="54" lean-forward="false" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tensorflow_study/get_started/input_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-579">
+        <state relative-caret-position="-1180">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tensorflow_study/chapter4/chapter4_deep_neural.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/settings/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5788">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tensorflow_study/chapter5/mnist_inference.py">
+    <entry file="file://$PROJECT_DIR$/../query_recommend/server/core/tools/unique_record.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2464">
+          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pyenv/versions/3.6.3/lib/python3.6/site-packages/elasticsearch_dsl/document.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="152" column="8" lean-forward="false" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../query_recommend/server/core/talent_resume_es.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="265" column="6" lean-forward="false" selection-start-line="265" selection-start-column="6" selection-end-line="265" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../query_recommend/server/import_talent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1024">
+          <caret line="108" column="30" lean-forward="false" selection-start-line="108" selection-start-column="30" selection-end-line="108" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../query_recommend/server/import_talent_online.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="201" column="53" lean-forward="false" selection-start-line="201" selection-start-column="53" selection-end-line="201" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../query_recommend/server/core/shake.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4874">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../as/server/scripts/realtime_import.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../daily_import/server/import_resume.py">
+    <entry file="file://$PROJECT_DIR$/../as/server/settings/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2112">
-          <caret line="80" column="30" lean-forward="false" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tensorflow_study/chapter5/mnist_train.py">
+    <entry file="file://$PROJECT_DIR$/../query_recommend/server/core/es_import_schema.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="54" column="37" lean-forward="false" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="37" />
+        <state relative-caret-position="-2762">
+          <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../daily_import/server/import_contact_resume.py">
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/search/view.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="190" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="167" column="24" lean-forward="false" selection-start-line="167" selection-start-column="24" selection-end-line="167" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.pyenv/versions/3.6.3/lib/python3.6/site-packages/PIL/ImageFont.py">
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/search/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+        <state relative-caret-position="256">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.pyenv/versions/3.6.3/lib/python3.6/site-packages/PIL/ImageDraw.py">
+    <entry file="file://$PROJECT_DIR$/../graph/edge/resume_company.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="207" column="21" lean-forward="false" selection-start-line="207" selection-start-column="21" selection-end-line="207" selection-end-column="21" />
+        <state relative-caret-position="352">
+          <caret line="48" column="97" lean-forward="false" selection-start-line="47" selection-start-column="22" selection-end-line="48" selection-end-column="97" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/captcha_handle/captcha_gen.py" />
-    <entry file="file://$USER_HOME$/.pyenv/versions/3.6.3/lib/python3.6/site-packages/PIL/Image.py">
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/settings/constant.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66592">
-          <caret line="2085" column="10" lean-forward="false" selection-start-line="2085" selection-start-column="10" selection-end-line="2085" selection-end-column="10" />
+        <state relative-caret-position="-1376">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/18189896/cv2/cv2/__init__.py">
+    <entry file="file://$PROJECT_DIR$/../as/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="32">
+            <caret line="1" column="74" lean-forward="false" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/label.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../as/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../as/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/core/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
-          <caret line="5561" column="4" lean-forward="false" selection-start-line="5561" selection-start-column="4" selection-end-line="5561" selection-end-column="4" />
+          <caret line="316" column="4" lean-forward="false" selection-start-line="316" selection-start-column="4" selection-end-line="316" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.pyenv/versions/3.6.3/lib/python3.6/site-packages/PIL/ImageFilter.py">
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4736">
-          <caret line="148" column="6" lean-forward="false" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="6" />
+        <state relative-caret-position="224">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#95#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/graph/bfs-search.py">
+    <entry file="file://$PROJECT_DIR$/../as/server/modules/resume_search/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+        <state relative-caret-position="224">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/sort/bubble_sort.py">
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#38#52#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="e#34#59#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../as/server/modules/resume_search/resume_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../as/server/modules/resume_search/talent_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../as/server/modules/resume_search/aizhaopin_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../as/etc/web_config.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/graph/dijkstra.py">
+    <entry file="file://$PROJECT_DIR$/../as/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kaggle/mnist_recognizer/model/mnist-recognizer.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/list_item.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-700">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../as/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../query_recommend/server/core/recall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-768">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/settings/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../as/server/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../as/server/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../as/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/folder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/core/BaseHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pyenv/versions/3.6.3/lib/python3.6/site-packages/tornado/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="153" column="6" lean-forward="false" selection-start-line="153" selection-start-column="6" selection-end-line="153" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../query_recommend/server/core/BaseHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../query_recommend/server/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="81" column="34" lean-forward="true" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/resume.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-8188">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../graph/node/public.py">
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/match_item.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-480">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ListParser-test/server/settings/data/company_list.json">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ListParser/server/core/parse_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="229" column="27" lean-forward="false" selection-start-line="229" selection-start-column="27" selection-end-line="229" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../daily_import/server/modules/talent/model/parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="52" column="14" lean-forward="false" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../daily_import/server/modules/talent/model/upload_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="43" column="63" lean-forward="false" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/upload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="93" column="50" lean-forward="false" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/model/upload_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="28" column="63" lean-forward="false" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ListParser-test/server/settings/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ListParser/server/tests/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/model/parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ListParser-test/server/core/parse_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        <state relative-caret-position="349">
+          <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ListParser-test/server/tests/test.py">
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/core/mongo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="-1628">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ListParser-test/server/server.py">
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/growth_share.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2240">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        <state relative-caret-position="-5315">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tensorflow_study/get_started/study.py">
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/core/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3292">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../query_recommend/server/core/es_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="607" column="60" lean-forward="true" selection-start-line="607" selection-start-column="60" selection-end-line="607" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/core/weixin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../as/server/modules/resume_search/model/query_analyze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../as/server/modules/resume_search/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../as/server/modules/resume_search/model/talent_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../as/server/modules/resume_search/model/aizhaopin_search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tensorflow_study/chapter3/chapter3_sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="e#171#194#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tensorflow_study/get_started/mnist_intro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="e#173#196#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ListParser-test/server/core/parse_list_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19776">
-          <caret line="632" column="26" lean-forward="false" selection-start-line="632" selection-start-column="26" selection-end-line="632" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#22#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../graph/node/spider_unique.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="71" column="19" lean-forward="false" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/multiprocessing/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.pyenv/versions/3.6.3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1948">
-          <caret line="159" column="14" lean-forward="false" selection-start-line="159" selection-start-column="8" selection-end-line="159" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_12.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kaggle/mnist_recognizer/model/cnn_enlarge_data.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/captcha_handle/lagou_captcha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tensorflow_study/get_started/mnist_advanced.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="66" column="27" lean-forward="false" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/captcha_handle/captcha_handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="91" column="38" lean-forward="false" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/captcha_handle/captcha_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1181">
-          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding>
-            <element signature="e#172#185#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/predict_with_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-611">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="e#174#187#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

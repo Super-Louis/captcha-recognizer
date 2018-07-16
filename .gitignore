@@ -4,3 +4,4 @@ model/label_encoder
 model/cnn_model_0.99.ckpt.meta
 model/cnn_model_0.99.ckpt.index
 model/cnn_model_0.99.ckpt.data-00000-of-00001
+model/cnn_full*
